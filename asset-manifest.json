@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Armine-web/create-react-app-find-word.git/static/css/main.f12d876a.css",
+    "main.js": "/Armine-web/create-react-app-find-word.git/static/js/main.756005f0.js",
+    "index.html": "/Armine-web/create-react-app-find-word.git/index.html",
+    "main.f12d876a.css.map": "/Armine-web/create-react-app-find-word.git/static/css/main.f12d876a.css.map",
+    "main.756005f0.js.map": "/Armine-web/create-react-app-find-word.git/static/js/main.756005f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f12d876a.css",
+    "static/js/main.756005f0.js"
+  ]
+}
