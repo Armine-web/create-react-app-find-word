@@ -2,6 +2,7 @@
   "name": "find-word",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://armine-web.github.io/create-react-app-find-word/",
   "dependencies": {
     "@faker-js/faker": "^9.4.0",
     "cra-template": "1.2.0",
@@ -10,10 +11,13 @@
     "react-dropdown-select": "^4.11.4",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
